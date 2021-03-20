@@ -2,17 +2,15 @@ import './index.css';
 
 function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>SHNY</h1>
+    <header className="header">
+      <h1>SHNY</h1>
 
-        <ul>
-          <li>Home</li>
-          <li>News</li>
-          <li>Apply</li>
-        </ul>
-      </header>
-    </div>
+      <ul className="header__menu">
+        <li className="header__menu-item">Home</li>
+        <li className="header__menu-item">News</li>
+        <li className="header__menu-item">Apply</li>
+      </ul>
+    </header>
   );
 }
 

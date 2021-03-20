@@ -1,3 +1,11 @@
-ul {
-  @apply text-primary;
+.header {
+  @apply container flex justify-between;
+}
+
+.header__menu {
+  @apply flex;
+}
+
+.header__menu-item {
+  @apply mr-4 last:mr-4;
 }
