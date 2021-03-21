@@ -112,5 +112,3 @@ exports
 *.cache
 build
 .strapi-updater.json
-extensions/users-permissions/config/jwt.js
-config/server.js
