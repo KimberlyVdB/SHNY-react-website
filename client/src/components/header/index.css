@@ -22,22 +22,6 @@
   @apply font-bold text-primary ;
 }
 
-/*
-.header_menu-item:before {
-  content: "";
-  background: #7FDBFF;
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  bottom: 0;
-  left: 0;
-  border-radius: 5px;
-  transform: scaleX(0);
-  animation: 1.4s forwards no-hover-v linear;
-  animation-fill-mode: forwards;
-  z-index: -1; 
-}*/
-
 /* mobile nav */
 
 .header-m {
@@ -77,5 +61,5 @@
 }
 
 .mobile_menu {
- @apply fixed top-0 bottom-0 right-0 text-xl xl:hidden 
+  @apply fixed top-0 bottom-0 right-0 text-xl xl:hidden
 }
