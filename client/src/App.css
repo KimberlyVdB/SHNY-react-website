@@ -1,3 +1,56 @@
 .app {
-  @apply bg-primary;
+  @apply bg-black;
+}
+
+h1, h2, h3, h4,h5,h6 {
+  @apply  pb-6 font-bold font-heading text-primary;
+}
+
+h1 {
+  @apply pb-6 text-5xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+
+p {
+  @apply font-sans text-lg;
+}
+
+.trail-line::after {
+  display: flex;
+  content: "";
+  flex: 1 1 auto;
+  margin-left: 1rem;
+  overflow: hidden;
+  border-bottom: solid 2px;
+  border-color: currentColor;
+  transform: translateY(-50%);
+}
+
+.title::before {
+  display: flex;
+  content: "";
+  flex: 1 1 auto;
+  margin-right: 1rem;
+  border-color: currentColor;
+  overflow: hidden;
+  border-bottom: solid 3px;
+  transform: translateY(-50%);
+}
+
+.Title::after {
+  display: flex;
+  content: "";
+  flex: 1 1 auto;
+  margin-left: 1rem;
+  overflow: hidden;
+  border-bottom: solid 3px;
+  transform: translateY(-50%);
 }
