@@ -1,8 +1,9 @@
 import { Component } from 'react';
-import './index.css';
+import { Link } from "@reach/router"
 import logo from '../../imgs/shnylogo.png';
 import hamburger from '../../icons/hamburger.svg';
 import close from '../../icons/close.svg';
+import './index.css';
 
 class Header extends Component {
   constructor() {
@@ -33,11 +34,11 @@ class Header extends Component {
 
           <ul className="header-d__menu">
             <li className="header-d__menu-item">
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
 
             <li className="header-d__menu-item">
-              <a href="#">Info</a>
+              <Link to="/info">Info</Link>
             </li>
 
             <li className="header-d__menu-item">
@@ -66,17 +67,17 @@ class Header extends Component {
             <div className="header-m-top">
               <img className="header-m__logo" src={logo} alt="SHNY-logo"></img>
               <a href="#" onClick={this.handleClick}>
-                <img src={close}></img>
+                <img src={close} alt="close icon"></img>
               </a>
             </div>
 
             <ul className="header-m__menu">
               <li className="header-m__menu-item">
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
 
               <li className="header-m__menu-item">
-                <a href="#">Info</a>
+                <Link to="/info">Info</Link>
               </li>
 
               <li className="header-m__menu-item">
@@ -86,7 +87,7 @@ class Header extends Component {
               <li className="header-m__menu-item">
                 <a href="#">Blog</a>
               </li>
-  
+
               <li className="header-m__menu-item">
                 <a href="#">Apply</a>
               </li>

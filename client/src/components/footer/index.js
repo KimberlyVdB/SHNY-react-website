@@ -1,6 +1,4 @@
-import { Component } from 'react';
 import './index.css';
-
 
 function Footer() {
   return (

@@ -1,0 +1,16 @@
+.homepage {
+  @apply container pb-8 my-auto text-center;
+}
+
+.homepage-bg {
+  @apply bg-cover bg-no-repeat;
+  background-image: url('../../imgs/home-bg.png');
+}
+
+.homepage-title {
+  @apply pt-24;
+}
+
+.cta-btn {
+  @apply px-4 py-2 m-auto font-semibold text-white uppercase bg-primary;
+}
