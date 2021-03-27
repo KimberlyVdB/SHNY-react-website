@@ -34,7 +34,7 @@ p {
   transform: translateY(-50%);
 }
 
-.Title::before {
+.title::before {
   display: flex;
   content: "";
   flex: 1 1 auto;
