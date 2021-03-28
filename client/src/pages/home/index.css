@@ -3,7 +3,7 @@
 }
 
 .homepage-bg {
-  @apply bg-cover bg-no-repeat;
+  @apply bg-cover bg-no-repeat h-full;
   background-image: url('../../imgs/home-bg.png');
 }
 
@@ -12,5 +12,5 @@
 }
 
 .cta-btn {
-  @apply px-4 py-2 m-auto font-semibold text-white uppercase bg-primary;
+  @apply inline-block px-4 py-2 m-auto font-semibold text-white uppercase bg-primary;
 }

@@ -26,8 +26,13 @@ p {
   @apply font-sans text-lg;
 }
 
+#root {
+  @apply h-full;
+}
+
 .app {
-  @apply flex flex-col bg-black;
+  @apply grid min-h-full bg-black;
+  grid-template-rows: auto 1fr auto;
 }
 
 .trail-line,
