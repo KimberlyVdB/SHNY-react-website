@@ -1,13 +1,13 @@
-.header {
-  @apply border-b-4 border-primary;
-}
+/* .header {
+  @apply  border-b-4 border-primary;
+} */
 
 .header-d {
   @apply container justify-between hidden p-4 lg:flex;
 }
 
 .header-d__logo {
-  @apply w-1/6 h-1/6;
+  @apply w-28;
 }
 
 .header-d__menu {
@@ -15,11 +15,11 @@
 }
 
 .header-d__menu-item {
-  @apply mr-8 text-white last:mr-8;
+  @apply mr-8 text-primary last:mr-8;
 }
 
 .header-d__menu-item:hover {
-  @apply font-bold text-primary ;
+  @apply font-bold text-secondary ;
 }
 
 /* mobile nav */
