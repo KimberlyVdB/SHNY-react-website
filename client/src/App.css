@@ -2,7 +2,7 @@ html, body {
   @apply h-full;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4,  h6 {
   @apply pb-6 font-bold font-heading text-primary;
 }
 
@@ -23,7 +23,7 @@ h4 {
 }
 
 p {
-  @apply font-sans text-lg;
+  @apply font-sans text-base ;
 }
 
 #root {
@@ -41,14 +41,20 @@ p {
 }
 
 .trail-line::after {
-  @apply flex flex-1 ml-4 overflow-hidden border-b-2 border-current transform -translate-y-1/2;
+  @apply flex flex-1 ml-4 overflow-hidden transform -translate-y-1/2 border-b-2 border-current;
   content: "";
 }
 
 .trail-line-double::before,
 .trail-line-double::after {
-  @apply flex flex-1 overflow-hidden border-current border-b-2 transform translate-y-1/2;
+  @apply flex flex-1 overflow-hidden transform translate-y-1/2 border-b-2 border-current;
   content: "";
+  flex: 1 1 auto;
+  margin-left: 1rem;
+  overflow: hidden;
+  border-bottom: solid 2px;
+  border-color: currentColor;
+  transform: translateY(-50%);
 }
 
 .trail-line-double::before {
@@ -57,4 +63,8 @@ p {
 
 .trail-line-double::after {
   @apply ml-4;
+}
+
+section {
+  @apply pt-14
 }
