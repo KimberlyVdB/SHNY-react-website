@@ -3,6 +3,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Home from './pages/home';
 import Info from './pages/info';
+import Competitions from './pages/competition';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Router>
         <Home path="/" />
         <Info path="/info" />
+        <Competitions path="/competition" />
       </Router>
       <Footer />
     </div>
