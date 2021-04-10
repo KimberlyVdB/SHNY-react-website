@@ -3,14 +3,22 @@
 }
 
 .homepage-bg {
-  @apply bg-cover bg-no-repeat h-full;
-  background-image: url('../../imgs/home-bg.png');
+  /* @apply bg-no-repeat bg-cover;
+  background-image: url('../../imgs/home-bg.png'); */
 }
 
 .homepage-title {
   @apply pt-24;
 }
 
+.cta-div {
+  @apply flex;
+}
+
 .cta-btn {
-  @apply inline-block px-4 py-2 m-auto font-semibold text-white uppercase bg-primary;
+  @apply inline-block px-4 py-2 m-auto font-semibold text-white uppercase bg-secondary;
+}
+
+.cta-btn:hover {
+  @apply bg-primary text-white
 }
