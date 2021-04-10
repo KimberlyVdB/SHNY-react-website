@@ -42,7 +42,7 @@ class Header extends Component {
             </li>
 
             <li className="header-d__menu-item">
-              <a href="#">contestants</a>
+              <a href="/competition">competition</a>
             </li>
 
             <li className="header-d__menu-item">
