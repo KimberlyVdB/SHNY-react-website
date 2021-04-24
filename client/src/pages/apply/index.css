@@ -1,0 +1,58 @@
+.apply-intro {
+  @apply container pb-6 my-auto text-center;
+}
+
+.rules-before-apply {
+@apply  pb-4
+}
+
+.apply-intro p {
+  @apply  text-center text-white;
+}
+
+.rules-left {
+  @apply pr-5
+}
+
+.rules-div {
+  @apply text-white container
+}
+.important {
+  @apply pb-4 text-center;
+}
+
+.important-span {
+  @apply font-bold;
+}
+
+.apply-form {
+  @apply px-6 text-white;
+}
+
+.checkbox-label {
+  @apply pl-3;
+}
+
+.label-input {
+  @apply pb-8;
+}
+
+.usermessage {
+  @apply block h-20 w-96;
+}
+
+.accname {
+  @apply block;
+}
+
+.apply-div {
+  @apply pt-5;
+}
+
+.apply-btn {
+  @apply px-4 py-2 m-auto font-semibold text-white uppercase bg-secondary;
+}
+
+.apply-btn:hover {
+  @apply bg-primary text-white
+}
