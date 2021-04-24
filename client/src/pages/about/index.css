@@ -1,0 +1,33 @@
+.intro {
+  @apply w-1/2 pb-6 mx-auto text-white ;
+}
+
+.info-intro {
+  @apply container pb-8 my-auto text-center;
+}
+
+.info-blocks {
+  @apply flex flex-col text-white;
+  @apply md:flex-row;
+  @apply lg:flex;
+}
+
+.info-block-intro {
+  @apply order-1 p-4 text-white;
+  @apply md:order-none md:p-16;
+  @apply lg:w-1/2;
+}
+
+.info-img {
+  @apply order-2;
+  @apply md:order-none;
+  @apply lg:w-1/2;
+}
+
+.other-games {
+  @apply pb-4
+}
+
+.other-games-span {
+  @apply text-secondary font-extrabold text-lg
+}

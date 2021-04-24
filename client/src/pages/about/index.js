@@ -16,7 +16,7 @@ function Info() {
   return (
     <section className="info">
       <div class="info-intro">
-        <h1 class="">About A Skritt At Heart </h1>
+        <h1 class="trail-line-double">About A Skritt At Heart </h1>
         <p class="intro">We are a casual PvE guild with a focus on fashion wars and community. A small, friendly and social bunch of skritt.</p>
       </div>
 
