@@ -1,5 +1,5 @@
 import './index.css';
-import applyImg from '../../imgs/skrittatheart.png';
+import applyImg from '../../imgs/skrittatheart1.png';
 
 function apply() {
   return (

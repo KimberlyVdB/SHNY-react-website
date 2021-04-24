@@ -26,7 +26,7 @@
 }
 
 .apply-form {
-  @apply px-6 text-white;
+  @apply px-4 text-white;
 }
 
 .checkbox-label {
@@ -34,11 +34,16 @@
 }
 
 .label-input {
-  @apply pb-8;
+  @apply block py-1;
+}
+
+.accname {
+  @apply text-black;
 }
 
 .usermessage {
-  @apply block h-20 w-96;
+  @apply block w-64 h-20 text-black;
+  @apply md:w-96;
 }
 
 .accname {
