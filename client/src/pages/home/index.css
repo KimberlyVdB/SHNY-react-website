@@ -1,10 +1,14 @@
 .homepage {
   @apply container pb-8 my-auto text-center;
+
 }
 
 .homepage-bg {
-  /* @apply bg-no-repeat bg-cover;
-  background-image: url('../../imgs/home-bg.png'); */
+ @apply h-full bg-no-repeat;
+ background-image: url('../../imgs/skritthomepage2.png');
+ background-position: right bottom;
+ background-size:  600px;
+
 }
 
 .homepage-title {
@@ -22,3 +26,24 @@
 .cta-btn:hover {
   @apply bg-primary text-white
 }
+
+.shinies {
+  @apply h-48
+}
+
+.social-media {
+  @apply flex text-center text-secondary;
+}
+
+.social-media a {
+  @apply text-secondary
+}
+
+.social-ig {
+  @apply w-6 text-secondary;
+}
+
+.social-yt {
+  @apply  w-8 ;
+}
+
