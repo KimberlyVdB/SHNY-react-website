@@ -3,14 +3,6 @@
 
 }
 
-.homepage-bg {
- @apply h-full bg-no-repeat;
- background-image: url('../../imgs/skritthomepage2.png');
- background-position: right bottom;
- background-size:  600px;
-
-}
-
 .homepage-title {
   @apply pt-24;
 }
