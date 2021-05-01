@@ -34,7 +34,7 @@ module.exports = {
         primary: '#0fddea',
         secondary: '#eb37bc',
         tertiary: '#f1bb51',
-        black: '#000000',
+        black: '#111111',
       },
     },
   },

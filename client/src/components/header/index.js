@@ -38,19 +38,23 @@ class Header extends Component {
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/info">Info</Link>
+              <Link to="/about">About</Link>
             </li>
 
             <li className="header-d__menu-item">
-              <a href="/competition">competition</a>
+              <Link to="/winners">contest winners</Link>
             </li>
 
             <li className="header-d__menu-item">
-              <a href="#">Blog</a>
+              <Link to="/blog">Blog</Link>
             </li>
 
             <li className="header-d__menu-item">
-              <a href="#">Apply</a>
+              <Link to="/contact">Contact</Link>
+            </li>
+
+            <li className="header-d__menu-item">
+              <Link to="/apply">apply</Link>
             </li>
           </ul>
         </div>
@@ -77,19 +81,19 @@ class Header extends Component {
               </li>
 
               <li className="header-m__menu-item">
-                <Link to="/info">Info</Link>
+                <Link to="/about">About</Link>
               </li>
 
               <li className="header-m__menu-item">
-                <a href="#">contestants</a>
+                <Link to="/winners">Contest winners</Link>
               </li>
 
               <li className="header-m__menu-item">
-                <a href="#">Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
 
               <li className="header-m__menu-item">
-                <a href="#">Apply</a>
+                <Link to="/apply">Apply</Link>
               </li>
             </ul>
           </div>

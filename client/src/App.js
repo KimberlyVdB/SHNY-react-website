@@ -2,8 +2,10 @@ import { Router } from "@reach/router"
 import Header from './components/header';
 import Footer from './components/footer';
 import Home from './pages/home';
-import Info from './pages/info';
-import Competitions from './pages/competition';
+import About from './pages/about';
+import Winners from './pages/winners';
+import Contact from './pages/contact';
+import Apply from './pages/apply';
 import './App.css';
 
 function App() {
@@ -12,8 +14,10 @@ function App() {
       <Header />
       <Router>
         <Home path="/" />
-        <Info path="/info" />
-        <Competitions path="/competition" />
+        <About path="/about" />
+        <Winners path="/winners" />
+        <Contact path="/contact" />
+        <Apply path="/apply" />
       </Router>
       <Footer />
     </div>
