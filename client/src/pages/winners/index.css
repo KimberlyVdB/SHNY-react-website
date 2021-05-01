@@ -1,0 +1,23 @@
+.intro-winners {
+  @apply text-white;
+}
+
+.winners-span {
+  @apply text-primary font-semibold
+}
+
+.winners-ul {
+  @apply pb-4
+}
+
+.read-more {
+  @apply flex;
+}
+
+.read-btn {
+  @apply inline-block px-4 py-2 font-semibold text-white uppercase bg-secondary;
+}
+
+.read-btn:hover {
+  @apply bg-primary text-white
+}
