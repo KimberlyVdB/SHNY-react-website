@@ -21,3 +21,11 @@
 .read-btn:hover {
   @apply bg-primary text-white
 }
+
+.story-div {
+  @apply text-white
+}
+
+.story-para {
+  @apply pb-5;
+}
