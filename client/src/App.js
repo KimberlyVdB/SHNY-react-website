@@ -8,6 +8,8 @@ import Contact from './pages/contact';
 import Apply from './pages/apply';
 import Winter from './pages/winners/winter';
 import Halloween from './pages/winners/halloween';
+import Blog from './pages/blog';
+import Post from './pages/blog/post';
 import './App.css';
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Winners path="/winners" />
         <Winter path="/winter" />
         <Halloween path="/halloween" />
+        <Blog path="/blog" />
+        <Post path="/blog/:id" />
         <Contact path="/contact" />
         <Apply path="/apply" />
       </Router>
