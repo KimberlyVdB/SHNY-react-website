@@ -1,9 +1,11 @@
 .intro {
-  @apply w-1/2 pb-6 mx-auto text-white ;
+  @apply pb-6 mx-auto text-white ;
+  @apply lg:w-1/2 ;
 }
 
 .info-intro {
-  @apply container pb-8 my-auto text-center;
+  @apply my-auto text-center;
+  @apply  lg:pb-8;
 }
 
 .info-blocks {

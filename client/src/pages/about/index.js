@@ -15,11 +15,12 @@ import friends from '../../imgs/guildinfo-friendship.png';
 function Info() {
   return (
     <section className="info">
+      <div class="contain-div">
       <div class="info-intro">
         <h1 class="trail-line-double">About A Skritt At Heart </h1>
         <p class="intro">We are a casual PvE guild with a focus on fashion wars and community. A small, friendly and social bunch of skritt.</p>
       </div>
-
+      </div>
       <div class="info-blocks ">
         <img class="info-img " alt="adventure-tuesday" src={adventure}></img>
         <div class="info-block-intro ">
@@ -31,7 +32,9 @@ function Info() {
       <div class="info-blocks">
       <div class="info-block-intro">
         <h3 class="trail-line">Guild Missions?</h3>
-        <p>I’m sure you know what that is, it’s guild missions!</p>
+        <p>I'm sure most of you know what guild missions are. But for those new to the game,
+As a guild you hunt down bounties, treks do a puzzle or a challenge together. There are also races but seem so loved in our guild,  not really.
+You earn guild commendation and we earn favor for our guild hall!</p>
 
         </div>
           <img class="info-img " alt="guild-missions" src={guildmissons}></img>
@@ -96,9 +99,11 @@ function Info() {
       <div class="info-blocks">
       <div class="info-block-intro">
         <h3 class="trail-line">Contests?</h3>
-        <p>Yes, we are a PvE guild, but we also have a love for fashion wars. This means we have channels on our Discord dedicated to our fashion/screenshot game. People that are not really into fashion are, of course, also welcome to join. Besides just sharing our screenshots we also hold fashion wars contests with a different theme every single time. During seasonal guild events you can also expect a run on the catwalk! During seasonal guild events you can expect a run on the catwalk!</p>
-        </div>
-          <img class="info-img" alt="contests" src={contests}></img>
+        <p>
+On our discord server we have a dedictated channel to host contests on. Contests vary from time to time.
+Theme screenshot contests, with or without a story/discription included. Funny character or guild names contests.</p>
+      </div>
+        <img class="info-img" alt="contests" src={contests}></img>
       </div>
 
 
