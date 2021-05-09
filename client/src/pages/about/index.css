@@ -20,12 +20,21 @@
   @apply lg:w-1/2;
 }
 
+.info-blocks:nth-child(even) .info-block-intro {
+  @apply md:order-1;
+}
+
 .info-img {
   @apply order-2;
   @apply md:order-none;
   @apply lg:w-1/2;
 }
 
+.info-blocks:nth-child(even) .info-img {
+  @apply md:order-2;
+}
+
+/* This needs to be fixed, CMS doesn't give classes */
 .other-games {
   @apply pb-4
 }
