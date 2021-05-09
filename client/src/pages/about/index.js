@@ -3,6 +3,7 @@ import './index.css';
 
 function Info() {
   const [activities, setActivities] = useState([]);
+
   useEffect(() => {
     async function getActivities() {
       const data = await fetch('https://shny.mbacalan.tk/api/guild-activities/');
