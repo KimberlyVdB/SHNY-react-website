@@ -68,3 +68,7 @@ p {
 section {
   @apply pt-14
 }
+
+.contain-div {
+  @apply container;
+}
