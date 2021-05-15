@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { Link } from "@reach/router"
 import logo from '../../imgs/shnylogo.png';
 import hamburger from '../../icons/hamburger.svg';
 import close from '../../icons/close.svg';
+import NavLink from '../NavLink';
 import './index.css';
 
 class Header extends Component {
@@ -34,27 +34,27 @@ class Header extends Component {
 
           <ul className="header-d__menu">
             <li className="header-d__menu-item">
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/about">About</Link>
+              <NavLink to="/about">About</NavLink>
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/winners">contest winners</Link>
+              <NavLink to="/winners">contest winners</NavLink>
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/blog">Blog</Link>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
 
             <li className="header-d__menu-item">
-              <Link to="/apply">apply</Link>
+              <NavLink to="/apply">apply</NavLink>
             </li>
           </ul>
         </div>
@@ -77,23 +77,23 @@ class Header extends Component {
 
             <ul className="header-m__menu">
               <li className="header-m__menu-item">
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
 
               <li className="header-m__menu-item">
-                <Link to="/about">About</Link>
+                <NavLink to="/about">About</NavLink>
               </li>
 
               <li className="header-m__menu-item">
-                <Link to="/winners">Contest winners</Link>
+                <NavLink to="/winners">Contest winners</NavLink>
               </li>
 
               <li className="header-m__menu-item">
-                <Link to="/blog">Blog</Link>
+                <NavLink to="/blog">Blog</NavLink>
               </li>
 
               <li className="header-m__menu-item">
-                <Link to="/apply">Apply</Link>
+                <NavLink to="/apply">Apply</NavLink>
               </li>
             </ul>
           </div>

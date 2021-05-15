@@ -5,7 +5,7 @@
 
 .info-intro {
   @apply my-auto text-center;
-  @apply  lg:pb-8;
+  @apply lg:pb-8;
 }
 
 .info-blocks {
@@ -16,29 +16,29 @@
 
 .info-block-intro {
   @apply order-1 p-4 text-white;
-  @apply md:order-none md:p-16;
+  @apply md:order-1 md:p-16;
   @apply lg:w-1/2;
 }
 
 .info-blocks:nth-child(even) .info-block-intro {
-  @apply md:order-1;
+  @apply md:order-2;
 }
 
 .info-img {
   @apply order-2;
-  @apply md:order-none;
+  @apply md:order-2;
   @apply lg:w-1/2;
 }
 
 .info-blocks:nth-child(even) .info-img {
-  @apply md:order-2;
+  @apply md:order-1;
 }
 
 /* This needs to be fixed, CMS doesn't give classes */
 .other-games {
-  @apply pb-4
+  @apply pb-4;
 }
 
 .other-games-span {
-  @apply text-secondary font-extrabold text-lg
+  @apply text-secondary font-extrabold text-lg;
 }
