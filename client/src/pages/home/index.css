@@ -3,9 +3,9 @@
 
 }
 
-.homepage-title {
-  @apply pt-24;
-}
+/* .homepage-title {
+  @apply ;
+} */
 
 .cta-div {
   @apply flex;
@@ -39,3 +39,6 @@
   @apply  w-8 ;
 }
 
+.skritt-vector {
+  @apply w-2/3 pt-4 mx-auto;
+}

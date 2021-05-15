@@ -1,6 +1,7 @@
 import './index.css';
-import youtube from '../../icons/youtube.svg';
-import instagram from '../../icons/instagram.svg';
+// import youtube from '../../icons/youtube.svg';
+// import instagram from '../../icons/instagram.svg';
+import SkrittVector from '../../imgs/SkrittVectorcut.png';
 
 function Home() {
   return (
@@ -12,11 +13,12 @@ function Home() {
         <a href="/" className="cta-btn">Enlist Today </a>
         </div>
         <div class="social-media">
-        <a href="https://www.instagram.com/a_skritt_at_heart/"><img alt="instagram" class="social-ig" src={instagram}></img></a>
-        <a href="/"><img alt="youtube" class="social-yt"  src={youtube}></img></a>
-
+        {/* <a href="https://www.instagram.com/a_skritt_at_heart/"><img alt="instagram" class="social-ig" src={instagram}></img></a>
+        <a href="/"><img alt="youtube" class="social-yt"  src={youtube}></img></a> */}
+ <img class="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
         </div>
       </div>
+
     </section>
   );
 }
