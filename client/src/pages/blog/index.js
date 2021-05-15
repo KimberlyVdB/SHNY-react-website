@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from "@reach/router"
 import './index.css';
+import SkrittVector from '../../imgs/SkrittVectorcut.png';
 
 function Blog() {
   const [blogs, setBlogs] = useState([]);
@@ -32,6 +33,7 @@ function Blog() {
             </span>
           </div>
         )}
+        <img class="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
       </div>
     </section>
   )

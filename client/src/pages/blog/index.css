@@ -1,3 +1,18 @@
 .blog-date {
-  @apply text-secondary font-extrabold;
+  @apply text-xl font-extrabold text-secondary;
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+}
+
+.trail-line {
+  padding-bottom: 0;
+  flex: 1;
+  margin-right: 10px; /* space between line and date */
+}
+
+.blog-date {
+  margin-left: auto;
 }
