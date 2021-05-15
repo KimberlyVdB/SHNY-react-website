@@ -19,8 +19,9 @@
 }
 
 .header-d__menu-item:hover {
-  @apply font-bold text-secondary ;
+  @apply    text-secondary ;
 }
+
 
 /* mobile nav */
 
@@ -31,9 +32,12 @@
 .header-m__banner {
   @apply container flex items-center justify-between ;
 }
+.close-nav {
+  @apply ml-auto w-11 ;
+}
 
 .header-m-top {
-  @apply flex p-4 border-b-4 border-primary;
+  @apply flex p-4 ;
 }
 
 .header-m__logo {
@@ -49,11 +53,11 @@
 }
 
 .header-m__menu {
-  @apply p-4;
+  @apply p-4 text-right uppercase;
 }
 
 .header-m__menu-item {
-  @apply mb-4 text-white last:mb-4;
+  @apply mb-4 text-primary last:mb-4;
 }
 
 .header-m__menu-item:hover {

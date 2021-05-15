@@ -71,7 +71,7 @@ class Header extends Component {
             <div className="header-m-top">
               <img className="header-m__logo" src={logo} alt="SHNY-logo"></img>
               <a href="#" onClick={this.handleClick}>
-                <img src={close} alt="close icon"></img>
+                <img class="close-nav" src={close} alt="close icon"></img>
               </a>
             </div>
 
