@@ -1,11 +1,12 @@
 .homepage {
-  @apply container pb-8 my-auto text-center;
+  @apply container my-auto text-center;
 
 }
 
-/* .homepage-title {
-  @apply ;
-} */
+.homepage-title {
+  @apply pt-10;
+  @apply md:pt-0;
+}
 
 .cta-div {
   @apply flex;
@@ -40,5 +41,6 @@
 }
 
 .skritt-vector {
-  @apply w-2/3 pt-4 mx-auto;
+  @apply w-full pt-6;
+  @apply md:w-2/3 mx-auto
 }
