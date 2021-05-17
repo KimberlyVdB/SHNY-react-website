@@ -16,7 +16,7 @@
 
 .info-block-intro {
   @apply order-1 p-4 text-white;
-  @apply md:order-1 md:p-16;
+  @apply md:order-1;
   @apply lg:w-1/2;
 }
 
@@ -40,5 +40,5 @@
 }
 
 .other-games-span {
-  @apply text-secondary font-extrabold text-lg;
+  @apply text-lg font-extrabold text-secondary;
 }
