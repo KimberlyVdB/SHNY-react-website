@@ -15,8 +15,8 @@ function Post(props) {
 
   return (
     <section>
-      <div class="contain-div">
-        <h1 class="trail-line-double">{post.title}</h1>
+      <div className="contain-div">
+        <h1 className="trail-line-double">{post.title}</h1>
 
         <div className="info-blocks">
           {post.content}
