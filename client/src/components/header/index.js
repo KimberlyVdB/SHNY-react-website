@@ -29,8 +29,8 @@ class Header extends Component {
 
     return (
       <header className="header">
-        <div class="header-d">
-          <img class="header-d__logo" src={logo} alt="SHNY-logo"></img>
+        <div className="header-d">
+          <img className="header-d__logo" src={logo} alt="SHNY-logo"></img>
 
           <ul className="header-d__menu">
             <li className="header-d__menu-item">
@@ -71,7 +71,7 @@ class Header extends Component {
             <div className="header-m-top">
               <img className="header-m__logo" src={logo} alt="SHNY-logo"></img>
               <a href="#" onClick={this.handleClick}>
-                <img class="close-nav" src={close} alt="close icon"></img>
+                <img className="close-nav" src={close} alt="close icon"></img>
               </a>
             </div>
 
@@ -90,6 +90,10 @@ class Header extends Component {
 
               <li className="header-m__menu-item">
                 <NavLink to="/blog">Blog</NavLink>
+              </li>
+
+              <li className="header-m__menu-item">
+                <NavLink to="/contact">Contact</NavLink>
               </li>
 
               <li className="header-m__menu-item">

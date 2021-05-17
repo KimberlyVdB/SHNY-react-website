@@ -3,7 +3,7 @@ import './index.css';
 
 function Footer() {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>Made by <a href="https://www.instagram.com/sugarcube.gw2/">Sugarcube </a> powered by Penemue</p>
     </footer>
   );
