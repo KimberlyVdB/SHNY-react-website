@@ -10,6 +10,14 @@ class Header extends Component {
     super();
     this.state = {
       mobileActive: false,
+      menuItems: [
+        { name: "Home", path: "/" },
+        { name: "About", path: "/about" },
+        { name: "Contest Winners", path: "/winners" },
+        { name: "Blog", path: "/blog" },
+        { name: "Contact", path: "/contact" },
+        { name: "Apply", path: "/apply" },
+      ]
     }
 
     this.handleClick = this.handleClick.bind(this);
@@ -33,29 +41,13 @@ class Header extends Component {
           <img className="header-d__logo" src={logo} alt="SHNY-logo"></img>
 
           <ul className="header-d__menu">
-            <li className="header-d__menu-item">
-              <NavLink to="/">Home</NavLink>
-            </li>
-
-            <li className="header-d__menu-item">
-              <NavLink to="/about">About</NavLink>
-            </li>
-
-            <li className="header-d__menu-item">
-              <NavLink to="/winners">contest winners</NavLink>
-            </li>
-
-            <li className="header-d__menu-item">
-              <NavLink to="/blog">Blog</NavLink>
-            </li>
-
-            <li className="header-d__menu-item">
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-
-            <li className="header-d__menu-item">
-              <NavLink to="/apply">apply</NavLink>
-            </li>
+            {this.state.menuItems.map(item =>
+              <li className="header-d__menu-item" key={item.name}>
+                <NavLink to={item.path} key={item.name}>
+                  {item.name}
+                </NavLink>
+              </li>
+            )}
           </ul>
         </div>
 
@@ -76,33 +68,17 @@ class Header extends Component {
             </div>
 
             <ul className="header-m__menu">
-              <li className="header-m__menu-item">
-                <NavLink to="/">Home</NavLink>
-              </li>
-
-              <li className="header-m__menu-item">
-                <NavLink to="/about">About</NavLink>
-              </li>
-
-              <li className="header-m__menu-item">
-                <NavLink to="/winners">Contest winners</NavLink>
-              </li>
-
-              <li className="header-m__menu-item">
-                <NavLink to="/blog">Blog</NavLink>
-              </li>
-
-              <li className="header-m__menu-item">
-                <NavLink to="/contact">Contact</NavLink>
-              </li>
-
-              <li className="header-m__menu-item">
-                <NavLink to="/apply">Apply</NavLink>
-              </li>
+              {this.state.menuItems.map(item =>
+                <li className="header-m__menu-item" onClick={this.handleClick} key={item.name}>
+                  <NavLink to={item.path} key={item.name}>
+                    {item.name}
+                  </NavLink>
+                </li>
+              )}
             </ul>
           </div>
         </div>
-      </header>
+      </header >
     );
   }
 };

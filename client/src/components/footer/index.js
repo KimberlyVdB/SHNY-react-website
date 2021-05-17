@@ -1,5 +1,4 @@
 import './index.css';
-// import heart from '../../icons/heart.svg';
 
 function Footer() {
   return (
