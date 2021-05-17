@@ -3,20 +3,21 @@
 }
 
 .rules-before-apply {
-@apply  pb-4
+@apply pb-4;
 }
 
 .apply-intro p {
-  @apply  text-center text-white;
+  @apply text-center text-white;
 }
 
 .rules-left {
-  @apply pr-5
+  @apply pr-5;
 }
 
 .rules-div {
-  @apply text-white container
+  @apply text-white container;
 }
+
 .important {
   @apply pb-4 text-center;
 }
@@ -59,5 +60,9 @@
 }
 
 .apply-btn:hover {
-  @apply bg-primary text-white
+  @apply bg-primary text-white;
+}
+
+.info-blocks__apply img {
+  @apply order-none;
 }

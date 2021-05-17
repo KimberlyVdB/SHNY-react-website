@@ -1,6 +1,6 @@
 .intro {
-  @apply pb-6 mx-auto text-white ;
-  @apply lg:w-1/2 ;
+  @apply pb-6 mx-auto text-white;
+  @apply lg:w-1/2;
 }
 
 .info-intro {

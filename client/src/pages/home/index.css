@@ -1,6 +1,5 @@
 .homepage {
   @apply container my-auto text-center;
-
 }
 
 .homepage-title {
@@ -17,11 +16,11 @@
 }
 
 .cta-btn:hover {
-  @apply bg-primary text-white
+  @apply bg-primary text-white;
 }
 
 .shinies {
-  @apply h-48
+  @apply h-48;
 }
 
 .social-media {
@@ -29,7 +28,7 @@
 }
 
 .social-media a {
-  @apply text-secondary
+  @apply text-secondary;
 }
 
 .social-ig {
@@ -37,10 +36,10 @@
 }
 
 .social-yt {
-  @apply  w-8 ;
+  @apply w-8 ;
 }
 
 .skritt-vector {
   @apply w-full pt-6;
-  @apply md:w-2/3 mx-auto
+  @apply md:w-2/3 mx-auto;
 }
