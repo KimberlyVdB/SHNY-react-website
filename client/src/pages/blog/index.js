@@ -24,7 +24,7 @@ function Blog() {
 
         {blogs.map(blog =>
           <div className="blog" key={blog.id}>
-            <h3 className="trail-line">
+            <h3 className="trail-line trail-line-blog">
               <Link to={'/blog/' + blog.id}>{blog.title}</Link>
             </h3>
 
