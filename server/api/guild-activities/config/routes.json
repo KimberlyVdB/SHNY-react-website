@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/guild-activities",
+      "handler": "guild-activities.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guild-activities/count",
+      "handler": "guild-activities.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/guild-activities/:id",
+      "handler": "guild-activities.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/guild-activities",
+      "handler": "guild-activities.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/guild-activities/:id",
+      "handler": "guild-activities.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/guild-activities/:id",
+      "handler": "guild-activities.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
