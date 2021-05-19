@@ -66,41 +66,41 @@ function apply() {
         <img className="info-img" alt="apply" src={applyImg}></img>
         <div className="apply-form">
           <h3 className="trail-line">Sounds good?</h3>
-          <form action="/action_page.php">
+          <form name="application" netlify>
             <ul>
               <li>
-                <input type="checkbox"></input>
-                <label htmlFor="" className="checkbox-label">I understand and accept the rules.</label>
+                <input type="checkbox" id="rules" required></input>
+                <label htmlFor="rules" className="checkbox-label">I understand and accept the rules.</label>
               </li>
 
               <li>
-                <input type="checkbox"></input>
-                <label htmlFor="" className="checkbox-label">I play on European servers.</label>
+                <input type="checkbox" id="eu" required></input>
+                <label htmlFor="eu" className="checkbox-label">I play on European servers.</label>
               </li>
 
               <li>
-                <input type="checkbox"></input>
-                <label htmlFor="" className="checkbox-label">I will join and use discord.</label>
+                <input type="checkbox" id="discord" required></input>
+                <label htmlFor="discord" className="checkbox-label">I will join and use Discord.</label>
               </li>
 
               <li>
-                <input type="checkbox"></input>
-                <label htmlFor="" className="checkbox-label">I understand I will be kicked if I'm offline for over 3 months without a notice.</label>
+                <input type="checkbox" id="timeout" required></input>
+                <label htmlFor="timeout" className="checkbox-label">I understand I will be kicked if I'm offline for over 3 months without a notice.</label>
               </li>
 
               <li>
-                <label htmlFor="fname" className="label-input">Your ingame name:</label>
+                <label htmlFor="accname" className="label-input" required>Your ingame name:</label>
                 <input type="text" id="accname" name="accname" className="accname" placeholder="Notaskritt.1234"></input>
               </li>
 
               <li>
                 <label htmlFor="userMessage" className="label-input">Why would you like to join/ tell us about yourself below:</label>
-                <textarea htmlFor="userMessage" id="userMessage" name="userMessage" className="usermessage" ></textarea>
+                <textarea id="userMessage" name="userMessage" className="usermessage" ></textarea>
               </li>
             </ul>
 
             <div className="apply-div">
-              <a href="/" className="apply-btn">Apply now</a>
+              <button type="submit" class="apply-btn">Apply Now</button>
             </div>
           </form>
         </div>
