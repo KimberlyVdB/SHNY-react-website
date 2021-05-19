@@ -1,9 +1,10 @@
 .apply-intro {
-  @apply container pb-6 my-auto text-center;
+  @apply  pb-6 text-left;
+  @apply md:my-auto md:text-center;
 }
 
 .rules-before-apply {
-@apply pb-4;
+  @apply pb-4;
 }
 
 .apply-intro p {
@@ -15,11 +16,11 @@
 }
 
 .rules-div {
-  @apply text-white container;
+  @apply text-white;
 }
 
 .important {
-  @apply pb-4 text-center;
+  @apply pb-4 text-center text-white;
 }
 
 .important-span {
@@ -60,9 +61,14 @@
 }
 
 .apply-btn:hover {
-  @apply bg-primary text-white;
+  @apply text-white bg-primary;
 }
 
-.info-blocks__apply img {
-  @apply order-none;
+.info-blocks__apply .info-img {
+  @apply order-1;
+  @apply md:order-none !important;
+}
+
+.info-blocks__apply {
+  @apply container;
 }

@@ -15,24 +15,25 @@ function apply() {
         <p>
           Racial, religious,sexual and/or any other type of discrimination will not be tolerated, even as jokes.
           Same goes for homophobia and transphobia. Don't engage in religious/political or sexual discussions.
-          There is enough of that IRL. Don't be an ass.
+          There is enough of that IRL. Don't be an ass
         </p>
       </div>
 
       <div className="rules-div">
-        <h3 className="trail-line ">What do we expect from members?</h3>
+        <h3 className="trail-line">What do we expect from members?</h3>
+
         <div className="info-blocks rules-before-apply">
           <div className="rules-left">
             <ul>
               <li className="other-games">
-                <span className="other-games-span"> Maturity and friendliness:</span>
+                <p className="other-games-span">Maturity and friendliness:</p>
                 We're here to enjoy the game and there is no doubt there will be silly moments.
                 What matters is you preserve a mature and friendly attitude. Keep an open mind,
                 follow the general etiquette and there shall be no drama!
               </li>
 
               <li className="other-games">
-                <span className="other-games-span">Decent amount of communication:</span>
+                <p className="other-games-span">Decent amount of communication:</p>
                 We expect you to engage with the guild chat, in-game and/or on here.
                 Say a simple hi/bye, feel free to ask/answer questions and just chat with us. No one will bite!
               </li>
@@ -41,24 +42,25 @@ function apply() {
 
           <ul>
             <li className="other-games">
-              <span className="other-games-span">Consistent activity and participation:</span>
+              <p className="other-games-span">Consistent activity and participation:</p>
               To not end up running a graveyard, we cleanup inactive members periodically.
               We also don't do lots of events every day and expect you to join them all but when we do organize things,
               we'd like to see you there!
             </li>
 
             <li className="other-games">
-              <span className="other-games-span">Fair amount of representation: </span>
+              <p className="other-games-span">Fair amount of representation: </p>
               There are no percentages to meet with representation, we just want you to be fair.
               If this guild provides you good time, give something back with a simple click.
             </li>
           </ul>
         </div>
-
-        <p className="important">It is really important that you can satisfy
-          <span className="important-span"> at least 2 of those expectations, while maturity and friendliness is a must!</span>
-        </p>
       </div>
+
+      <p className="important">
+        It is really important that you can satisfy
+        <span className="important-span"> at least 2 of those expectations, while maturity and friendliness is a must!</span>
+      </p>
 
       <div className="info-blocks info-blocks__apply">
         <img className="info-img" alt="apply" src={applyImg}></img>
@@ -98,7 +100,7 @@ function apply() {
             </ul>
 
             <div className="apply-div">
-              <a href="/" className="apply-btn">Apply Now</a>
+              <a href="/" className="apply-btn">Apply now</a>
             </div>
           </form>
         </div>
