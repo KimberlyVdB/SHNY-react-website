@@ -1,3 +1,15 @@
 .feedback {
   @apply pt-4;
 }
+
+.contact {
+  @apply text-white;
+}
+
+.contact-me {
+  @apply flex justify-center text-center;
+}
+
+.contact-me li {
+  @apply pl-2;
+}

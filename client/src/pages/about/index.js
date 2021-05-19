@@ -26,7 +26,7 @@ function Info() {
       </div>
 
       {activities.map(activity =>
-        <div className="info-blocks">
+        <div className="info-blocks" key={activity.id}>
           <img
             className="info-img"
             alt={activity.image.name}

@@ -3,11 +3,11 @@
 }
 
 .winners-span {
-  @apply text-primary font-semibold
+  @apply text-primary font-semibold;
 }
 
 .winners-ul {
-  @apply pb-4
+  @apply pb-4;
 }
 
 .read-more {
@@ -19,11 +19,11 @@
 }
 
 .read-btn:hover {
-  @apply bg-primary text-white
+  @apply bg-primary text-white;
 }
 
 .story-div {
-  @apply text-white
+  @apply text-white;
 }
 
 .story-para {

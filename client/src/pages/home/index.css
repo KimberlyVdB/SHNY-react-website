@@ -1,10 +1,10 @@
 .homepage {
-  @apply container pb-8 my-auto text-center;
-
+  @apply container my-auto text-center;
 }
 
 .homepage-title {
-  @apply pt-24;
+  @apply pt-10;
+  @apply md:pt-0;
 }
 
 .cta-div {
@@ -16,11 +16,11 @@
 }
 
 .cta-btn:hover {
-  @apply bg-primary text-white
+  @apply bg-primary text-white;
 }
 
 .shinies {
-  @apply h-48
+  @apply h-48;
 }
 
 .social-media {
@@ -28,7 +28,7 @@
 }
 
 .social-media a {
-  @apply text-secondary
+  @apply text-secondary;
 }
 
 .social-ig {
@@ -36,6 +36,10 @@
 }
 
 .social-yt {
-  @apply  w-8 ;
+  @apply w-8 ;
 }
 
+.skritt-vector {
+  @apply w-full pt-6;
+  @apply md:w-2/3 mx-auto;
+}
