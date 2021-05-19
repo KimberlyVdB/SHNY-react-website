@@ -12,11 +12,11 @@
 }
 
 .cta-btn {
-  @apply inline-block px-4 py-2 m-auto font-semibold text-white uppercase bg-secondary;
+  @apply inline-block px-4 py-2 m-auto font-semibold uppercase bg-secondary;
 }
 
 .cta-btn:hover {
-  @apply bg-primary text-white;
+  @apply bg-primary;
 }
 
 .shinies {
