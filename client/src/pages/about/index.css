@@ -40,5 +40,5 @@
 }
 
 .other-games-span {
-  @apply text-lg font-extrabold text-secondary;
+  @apply pr-1 text-lg font-extrabold text-secondary;
 }
