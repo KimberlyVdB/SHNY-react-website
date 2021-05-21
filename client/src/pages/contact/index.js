@@ -21,12 +21,12 @@ function contact() {
 
         <ul className="contact-me">
           <li>
-            <span className="other-games-span">Instagram</span>
+            <span className="other-games-span">Instagram:</span>
             <a href="https://www.instagram.com/sugarcube.gw2/">Sugarcube.gw2</a>
           </li>
 
           <li>
-            <span className="other-games-span">Instagram</span>
+            <span className="other-games-span">Instagram:</span>
             <a href="https://www.instagram.com/a_skritt_at_heart/">a_skritt_at_heart</a>
           </li>
         </ul>
@@ -38,7 +38,7 @@ function contact() {
           <h3 className="trail-line feedback">Feedback</h3>
           <p>
             Want to give us your feedback? Use the text area below and reach us
-            <span className="other-games-span">anonymously!</span>
+            <span className="anon-span">anonymously!</span>
             All feedback is welcome as long as its constructive.
           </p>
 
