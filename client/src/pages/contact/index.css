@@ -13,3 +13,10 @@
 .contact-me li {
   @apply pl-2;
 }
+.contact {
+ @apply pb-2;
+}
+
+.anon-span {
+  @apply mx-1 font-bold text-secondary;
+}
