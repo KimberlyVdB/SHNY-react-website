@@ -28,7 +28,7 @@ p {
 }
 
 #root {
-  @apply h-full;
+  @apply h-full text-white;
 }
 
 .app {

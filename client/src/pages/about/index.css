@@ -1,5 +1,5 @@
 .intro {
-  @apply pb-6 mx-auto text-white;
+  @apply pb-6 mx-auto;
   @apply lg:w-1/2;
 }
 
@@ -9,13 +9,13 @@
 }
 
 .info-blocks {
-  @apply flex flex-col text-white;
+  @apply flex flex-col;
   @apply md:flex-row;
   @apply lg:flex;
 }
 
 .info-block-intro {
-  @apply order-1 p-4 text-white;
+  @apply order-1 p-4;
   @apply md:order-1;
   @apply lg:w-1/2;
 }

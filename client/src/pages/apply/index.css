@@ -8,19 +8,15 @@
 }
 
 .apply-intro p {
-  @apply text-center text-white;
+  @apply text-center;
 }
 
 .rules-left {
   @apply pr-5;
 }
 
-.rules-div {
-  @apply text-white;
-}
-
 .important {
-  @apply pb-4 text-center text-white;
+  @apply pb-4 text-center;
 }
 
 .important-span {
@@ -28,7 +24,7 @@
 }
 
 .apply-form {
-  @apply px-4 text-white;
+  @apply px-4;
 }
 
 .checkbox-label {
@@ -57,11 +53,11 @@
 }
 
 .apply-btn {
-  @apply px-4 py-2 m-auto font-semibold text-white uppercase bg-secondary;
+  @apply px-4 py-2 m-auto font-semibold uppercase bg-secondary;
 }
 
 .apply-btn:hover {
-  @apply text-white bg-primary;
+  @apply bg-primary;
 }
 
 .info-blocks__apply .info-img {
