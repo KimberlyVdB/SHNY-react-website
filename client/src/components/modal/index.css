@@ -1,0 +1,32 @@
+.modal-wrapper {
+  @apply fixed top-0 left-0 hidden w-full h-full bg-black bg-opacity-70;
+}
+
+.modal-wrapper.-active {
+  @apply block;
+}
+
+.modal {
+  @apply fixed h-auto p-8 text-black transform -translate-x-1/2 -translate-y-1/2 bg-secondary top-1/2 left-1/2;
+  @apply md:w-1/2;
+}
+
+.modal__header {
+  @apply flex mb-2;
+}
+
+.trail-line-modal {
+  @apply pb-0 flex-1 mr-3;
+}
+
+.modal__title {
+  @apply text-black;
+}
+
+.modal_btn {
+  @apply px-4 py-2 m-auto font-semibold text-white uppercase bg-black;
+}
+
+.modal_btn:hover {
+  @apply text-black bg-white;
+}
