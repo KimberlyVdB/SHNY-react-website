@@ -12,7 +12,7 @@
 }
 
 .cta-btn {
-  @apply inline-block px-4 py-2 m-auto font-semibold uppercase bg-secondary;
+  @apply inline-block px-4 py-2 m-auto font-semibold uppercase bg-secondary transition-colors;
 }
 
 .cta-btn:hover {
