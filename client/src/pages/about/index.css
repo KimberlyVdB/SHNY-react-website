@@ -15,13 +15,13 @@
 }
 
 .info-block-intro {
-  @apply order-1 p-4;
-  @apply md:order-1;
+  @apply order-1 py-4;
+  @apply md:order-1 md:pl-0;
   @apply lg:w-1/2;
 }
 
 .info-blocks:nth-child(even) .info-block-intro {
-  @apply md:order-2;
+  @apply md:order-2 md:pr-0 md:pl-4;
 }
 
 .info-img {
