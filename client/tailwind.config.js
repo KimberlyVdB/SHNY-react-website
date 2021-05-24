@@ -6,7 +6,10 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '1rem',
+      padding: {
+        DEFAULT: '1rem',
+        sm: '0',
+      }
     },
     borderWidth: {
       DEFAULT: '1px',
