@@ -1,14 +1,18 @@
 .apply-intro {
-  @apply  pb-6 text-left;
-  @apply md:my-auto md:text-center;
+  @apply pb-6;
+  @apply md:my-auto;
 }
 
 .rules-before-apply {
   @apply pb-4;
 }
 
-.apply-intro p {
-  @apply text-center;
+.apply-intro__text {
+  @apply mb-2;
+}
+
+.apply-intro__list {
+  @apply pl-2 list-disc;
 }
 
 .rules-left {
@@ -24,7 +28,8 @@
 }
 
 .apply-form {
-  @apply px-4;
+  @apply w-full pl-4;
+  @apply md:w-1/2;
 }
 
 .checkbox-label {
@@ -36,7 +41,8 @@
 }
 
 .accname {
-  @apply text-black;
+  @apply text-black w-64;
+  @apply md:w-96;
 }
 
 .usermessage {
@@ -53,7 +59,8 @@
 }
 
 .apply-btn {
-  @apply px-4 py-2 m-auto font-semibold uppercase bg-secondary;
+  @apply block px-4 py-2 mx-auto font-semibold uppercase bg-secondary;
+  @apply md:mx-0;
 }
 
 .apply-btn:hover {
@@ -63,8 +70,4 @@
 .info-blocks__apply .info-img {
   @apply order-1;
   @apply md:order-none !important;
-}
-
-.info-blocks__apply {
-  @apply container;
 }
