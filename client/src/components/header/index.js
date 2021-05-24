@@ -38,7 +38,9 @@ class Header extends Component {
     return (
       <header className="header">
         <div className="header-d">
-          <img className="header-d__logo" src={logo} alt="SHNY-logo"></img>
+          <NavLink to="/">
+            <img className="header-d__logo" src={logo} alt="SHNY-logo"></img>
+          </NavLink>
 
           <ul className="header-d__menu">
             {this.state.menuItems.map(item =>

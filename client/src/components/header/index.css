@@ -1,5 +1,5 @@
 .header-d {
-  @apply container justify-between hidden p-4 lg:flex;
+  @apply container justify-between hidden py-4 lg:flex;
 }
 
 .header-d__logo {
@@ -11,11 +11,11 @@
 }
 
 .header-d__menu-item {
-  @apply mr-8 text-primary last:mr-8;
+  @apply mr-8 text-primary last:mr-0 transition-colors;
 }
 
-.header-d__menu-item:hover {
-  @apply text-secondary ;
+.header-d__menu-item a:hover {
+  @apply text-secondary;
 }
 
 /* mobile nav */
