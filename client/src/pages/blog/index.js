@@ -19,7 +19,7 @@ function Blog() {
     <section>
       <div className="contain-div">
         <div className="info-intro">
-          <h1 className="trail-line-double">SHNY Shenanigan</h1>
+          <h1 className="trail-line-double">SHNY News</h1>
         </div>
 
         {blogs.map(blog =>
