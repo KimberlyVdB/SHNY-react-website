@@ -3,7 +3,8 @@
 }
 
 .contact-me {
-  @apply flex justify-center text-center;
+  @apply text-center;
+  @apply md:flex md:justify-center;
 }
 
 .contact-me li {

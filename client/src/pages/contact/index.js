@@ -1,7 +1,15 @@
 import './index.css';
+import { useState } from 'react';
 import contactImg from '../../imgs/contact.png';
+import Modal from '../../components/modal';
 
-function contact() {
+function Contact() {
+  const [showModal, setShowModal] = useState(false);
+
+  function toggleModal() {
+    setShowModal(!showModal);
+  };
+
   return (
     <section className="contact">
       <div className="info-intro">
@@ -42,27 +50,34 @@ function contact() {
             All feedback is welcome as long as its constructive.
           </p>
 
-          <form>
-            <ul>
-              <li>
-                <input type="checkbox"></input>
-                <label htmlFor="" className="checkbox-label">I am a guild member.</label>
-              </li>
+          <Modal title="Feedback" active={showModal} close={() => toggleModal()}>
+              <form>
+                <ul>
+                  <li>
+                    <input type="checkbox"></input>
+                    <label htmlFor="" className="checkbox-label">I am a guild member.</label>
+                  </li>
 
-              <li>
-                <label htmlFor="userMessage" className="label-input">You can leave your feedback for us below:</label>
-                <textarea htmlFor="userMessage" id="userMessage" name="userMessage" className="usermessage" ></textarea>
-              </li>
-            </ul>
+                  <li>
+                    <label htmlFor="userMessage" className="label-input">You can leave your feedback for us below:</label>
+                    <textarea htmlFor="userMessage" id="userMessage" name="userMessage" className="usermessage" ></textarea>
+                  </li>
+                </ul>
+                <div className="apply-div">
+                  <a href="/" className="modal_btn">Submit</a>
+                </div>
+              </form>
+            </Modal>
 
-            <div className="apply-div">
-              <a href="/" className="apply-btn">Let us know!</a>
-            </div>
-          </form>
+
+
+          <div className="apply-div">
+            <button onClick={toggleModal} className="apply-btn">Let us know!</button>
+          </div>
         </div>
       </div>
     </section>
   );
 }
 
-export default contact;
+export default Contact;
