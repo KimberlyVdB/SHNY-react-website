@@ -6,7 +6,7 @@ import { Link } from "@reach/router"
 
 function competition() {
   return (
-    <section className="contest-winners">
+    <section className="contest-winners bottom_space">
       <div className="info-intro">
         <h1 className="trail-line-double">Contest Winners</h1>
         <p className="intro-winners">
