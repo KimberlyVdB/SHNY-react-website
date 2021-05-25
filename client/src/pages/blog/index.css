@@ -1,18 +1,19 @@
+.blog-wrapper {
+  @apply flex flex-col h-full;
+}
+
+.blog {
+  @apply flex items-center;
+}
+
 .blog-date {
   @apply text-xl font-extrabold text-secondary;
 }
 
-.blog {
-  display: flex;
-  align-items: center;
-}
-
 .trail-line-blog {
-  padding-bottom: 0;
-  flex: 1;
-  margin-right: 10px; /* space between line and date */
+  @apply pb-0 flex-1 mr-3;
 }
 
 .blog-date {
-  margin-left: auto;
+  @apply ml-auto;
 }

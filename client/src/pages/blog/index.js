@@ -17,7 +17,7 @@ function Blog() {
 
   return (
     <section>
-      <div className="contain-div">
+      <div className="blog-wrapper">
         <div className="info-intro">
           <h1 className="trail-line-double">SHNY News</h1>
         </div>
