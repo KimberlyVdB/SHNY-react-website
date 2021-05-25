@@ -14,9 +14,7 @@ function Home() {
           <a href="/" className="cta-btn">Enlist Today </a>
         </div>
 
-        <div className="social-media">
-          <img className="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
-        </div>
+        <img className="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
       </div>
     </section>
   );

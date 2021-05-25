@@ -1,5 +1,5 @@
 .homepage {
-  @apply container my-auto text-center;
+  @apply flex flex-col h-full my-auto text-center;
 }
 
 .homepage-title {
@@ -23,23 +23,7 @@
   @apply h-48;
 }
 
-.social-media {
-  @apply flex text-center text-secondary;
-}
-
-.social-media a {
-  @apply text-secondary;
-}
-
-.social-ig {
-  @apply w-6 text-secondary;
-}
-
-.social-yt {
-  @apply w-8 ;
-}
-
 .skritt-vector {
-  @apply w-full pt-6;
+  @apply w-full mt-auto pt-6;
   @apply md:w-2/3 mx-auto;
 }
