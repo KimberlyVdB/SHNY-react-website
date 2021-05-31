@@ -8,8 +8,10 @@ import './index.css';
 class Header extends Component {
   constructor() {
     super();
+    this.listener = null;
     this.state = {
       mobileActive: false,
+      nav: false,
       menuItems: [
         { name: "Home", path: "/" },
         { name: "About", path: "/about" },
@@ -21,6 +23,23 @@ class Header extends Component {
     }
 
     this.handleClick = this.handleClick.bind(this);
+
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    if (window.pageYOffset > 140) {
+      if (!this.state.nav) {
+        this.setState({ nav: true });
+      }
+    } else {
+      if (this.state.nav) {
+        this.setState({ nav: false });
+      }
+    }
   }
 
   handleClick(e) {
@@ -30,14 +49,19 @@ class Header extends Component {
 
   render() {
     let mobileNavClass = 'header-m__content';
+    let scrollNavClass = '';
 
     if (this.state.mobileActive) {
       mobileNavClass += ' active';
     }
 
+    if (this.state.nav) {
+      scrollNavClass = 'header-m_scroll';
+    }
+
     return (
       <header className="header">
-        <div className="header-d">
+        <div className={'header-d ' + scrollNavClass} >
           <NavLink to="/">
             <img className="header-d__logo" src={logo} alt="SHNY-logo"></img>
           </NavLink>
@@ -56,15 +80,15 @@ class Header extends Component {
         <div className="header-m">
           <div className="header-m__banner">
             <img className="header-m__logo" src={logo} alt="SHNY-logo"></img>
-            <a href="#" className="header-m__open" onClick={this.handleClick}>
+            <a href="#!" className="header-m__open" onClick={this.handleClick}>
               <img src={hamburger} alt="hamburger-icon"></img>
             </a>
           </div>
 
-          <div className={mobileNavClass}>
+          <div className={mobileNavClass + ' ' + scrollNavClass}>
             <div className="header-m-top">
               <img className="header-m__logo" src={logo} alt="SHNY-logo"></img>
-              <a href="#" onClick={this.handleClick}>
+              <a href="#!" onClick={this.handleClick}>
                 <img className="close-nav" src={close} alt="close icon"></img>
               </a>
             </div>
@@ -82,7 +106,7 @@ class Header extends Component {
         </div>
       </header >
     );
-  }
+  };
 };
 
 export default Header;

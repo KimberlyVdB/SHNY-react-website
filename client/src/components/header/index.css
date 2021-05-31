@@ -2,6 +2,10 @@
   @apply container justify-between hidden py-4 lg:flex;
 }
 
+.header-m_scroll{
+@apply container fixed inset-x-0 mx-auto bg-black bg-opacity-90;
+}
+
 .header-d__logo {
   @apply w-28;
 }
@@ -11,7 +15,7 @@
 }
 
 .header-d__menu-item {
-  @apply mr-8 text-primary last:mr-0 transition-colors;
+  @apply mr-8 transition-colors text-primary last:mr-0;
 }
 
 .header-d__menu-item a:hover {
@@ -48,7 +52,7 @@
 }
 
 .header-m__content.active {
-  @apply translate-x-0 z-10;
+  @apply z-10 translate-x-0;
 }
 
 .header-m__menu {
