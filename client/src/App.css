@@ -63,10 +63,6 @@ p {
 }
 
 section {
-  @apply container pt-4;
+  @apply container h-full pt-4;
   @apply md:pt-8
 }
-
-/* .bottom_space {
-  @apply pb-6;
-} */
