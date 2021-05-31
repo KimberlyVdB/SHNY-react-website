@@ -81,10 +81,11 @@ function Apply() {
       </p>
 
       <div className="info-blocks info-blocks__apply">
-        <img className="info-img" alt="apply" src={applyImg}></img>
+        <img className="info-img apply-img" alt="apply" src={applyImg}></img>
         <div className="apply-form">
           <h3 className="trail-line">Sound good?</h3>
-
+            <p>If what you've reasd sounds like the guild for you. You can apply by filling in our application form.
+if we think you will be a good fit we will contact and invite you. <span className="other-games-span">Applications are currently open.</span></p>
 
           <Modal title="Application" active={showModal} close={() => toggleModal()}>
             <form name="application" netlify="true">
