@@ -84,8 +84,11 @@ function Apply() {
         <img className="info-img apply-img" alt="apply" src={applyImg}></img>
         <div className="apply-form">
           <h3 className="trail-line">Sound good?</h3>
-            <p>If what you've reasd sounds like the guild for you. You can apply by filling in our application form.
-if we think you will be a good fit we will contact and invite you. <span className="other-games-span">Applications are currently open.</span></p>
+          <p>
+            If what you've read sounds like a guild for you, you can apply by filling in our application form.
+            If we think you will be a good fit, we will contact for an invite.
+            <span className="other-games-span">Applications are currently open.</span>
+          </p>
 
           <Modal title="Application" active={showModal} close={() => toggleModal()}>
             <form name="application" netlify="true">
