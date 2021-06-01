@@ -41,7 +41,7 @@
 }
 
 .accname {
-  @apply text-black w-64;
+  @apply w-64 text-black;
   @apply md:w-96;
 }
 
@@ -70,4 +70,8 @@
 .info-blocks__apply .info-img {
   @apply order-1;
   @apply md:order-none !important;
+}
+
+.apply-img {
+  @apply pt-4;
 }
