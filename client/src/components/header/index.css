@@ -1,9 +1,9 @@
 .header-d {
-  @apply container justify-between hidden py-4 lg:flex;
+  @apply container justify-between hidden py-2 my-2 transform transition lg:flex;
 }
 
-.header-m_scroll{
-@apply container fixed inset-x-0 mx-auto bg-black bg-opacity-90;
+.header-d__scroll{
+  @apply container fixed inset-x-0 mx-auto my-0 bg-black bg-opacity-90 z-10;
 }
 
 .header-d__logo {

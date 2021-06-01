@@ -31,7 +31,7 @@ class Header extends Component {
   }
 
   handleScroll = () => {
-    if (window.pageYOffset > 140) {
+    if (window.pageYOffset > 200) {
       if (!this.state.nav) {
         this.setState({ nav: true });
       }
@@ -56,7 +56,7 @@ class Header extends Component {
     }
 
     if (this.state.nav) {
-      scrollNavClass = 'header-m_scroll';
+      scrollNavClass = 'header-d__scroll';
     }
 
     return (
