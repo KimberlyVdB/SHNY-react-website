@@ -30,7 +30,7 @@ function Info() {
           <img
             className="info-img"
             alt={activity.image.name}
-            src={"https://shny.mbacalan.tk/api" + activity.image.url}
+            src={"https://shny.mbacalan.tk/api" + activity.image.formats.medium.url}
           />
 
           <div className="info-block-intro">
