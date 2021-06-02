@@ -3,8 +3,8 @@
 }
 
 .homepage-title {
-  @apply pt-10;
-  @apply md:pt-0;
+  @apply pt-20;
+  @apply md:pt-8;
 }
 
 .cta-div {
