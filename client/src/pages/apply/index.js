@@ -91,36 +91,38 @@ function Apply() {
           </p>
 
           <Modal title="Application" active={showModal} close={() => toggleModal()}>
-            <form name="application" netlify="true">
+            <form name="application" method="POST">
+              <input type="hidden" name="form-name" value="application" />
+
               <ul>
                 <li>
-                  <input type="checkbox" id="rules" required></input>
+                  <input type="checkbox" name="rules" id="rules" required></input>
                   <label htmlFor="rules" className="checkbox-label">I understand and accept the rules.</label>
                 </li>
 
                 <li>
-                  <input type="checkbox" id="eu" required></input>
-                  <label htmlFor="eu" className="checkbox-label">I play on European servers.</label>
+                  <input type="checkbox" name="eu_region" id="eu_region" required></input>
+                  <label htmlFor="eu_region" className="checkbox-label">I play on European servers.</label>
                 </li>
 
                 <li>
-                  <input type="checkbox" id="discord" required></input>
+                  <input type="checkbox" name="discord" id="discord" required></input>
                   <label htmlFor="discord" className="checkbox-label">I will join and use Discord.</label>
                 </li>
 
                 <li>
-                  <input type="checkbox" id="timeout" required></input>
-                  <label htmlFor="timeout" className="checkbox-label">I understand I will be kicked if I'm offline for over 3 months without a notice.</label>
+                  <input type="checkbox" name="inactivity" id="inactivity" required></input>
+                  <label htmlFor="inactivity" className="checkbox-label">I understand I will be kicked if I'm offline for over 3 months without a notice.</label>
                 </li>
 
                 <li>
-                  <label htmlFor="accname" className="label-input" required>Your ingame name:</label>
-                  <input type="text" id="accname" name="accname" className="accname" placeholder="Notaskritt.1234"></input>
+                  <label htmlFor="account_name" className="label-input" required>Your ingame name:</label>
+                  <input type="text" name="account_name" id="account_name" className="accname" placeholder="NotASkritt.1234"></input>
                 </li>
 
                 <li>
-                  <label htmlFor="userMessage" className="label-input">Why would you like to join/ tell us about yourself below:</label>
-                  <textarea id="userMessage" name="userMessage" className="usermessage" ></textarea>
+                  <label htmlFor="user_message" className="label-input">Why would you like to join/ tell us about yourself below:</label>
+                  <textarea name="user_message" id="user_message" className="usermessage" ></textarea>
                 </li>
               </ul>
 

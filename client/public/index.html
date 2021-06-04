@@ -23,6 +23,16 @@
     <title>SHNY</title>
   </head>
   <body>
+    <!-- A little help for the Netlify post-processing bots -->
+    <form name="application" netlify netlify-honeypot="bot-field" hidden>
+      <input type="checkbox" name="rules" />
+      <input type="checkbox" name="eu_region" />
+      <input type="checkbox" name="discord" />
+      <input type="checkbox" name="inactivity" />
+      <input type="text" name="account_name" />
+      <textarea name="user_message"></textarea>
+    </form>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
