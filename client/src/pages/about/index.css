@@ -19,6 +19,10 @@
   @apply md:order-1 md:pl-0;
   @apply lg:w-1/2;
 }
+.about-para {
+  @apply pr-5
+}
+
 
 .info-blocks:nth-child(even) .info-block-intro {
   @apply md:order-2 md:pr-0 md:pl-4;
@@ -42,3 +46,5 @@
 .other-games-span {
   @apply pr-1 text-lg font-extrabold text-secondary;
 }
+
+
