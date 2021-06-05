@@ -12,7 +12,7 @@ function Home() {
         <h3>We want you in the Skritt army today! </h3>
 
         <div className="cta-div">
-        <Link to="/apply" className="cta-btn"> Elist Today</Link>
+        <Link to="/apply" className="cta-btn"> Enlist Today</Link>
         </div>
 
         <img className="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
