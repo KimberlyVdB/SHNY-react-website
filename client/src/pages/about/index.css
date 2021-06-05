@@ -16,9 +16,10 @@
 
 .info-block-intro {
   @apply order-1 py-4;
-  @apply md:order-1 md:pl-0;
+  @apply md:order-1 md:pl-0 md:pr-5;
   @apply lg:w-1/2;
 }
+
 
 .info-blocks:nth-child(even) .info-block-intro {
   @apply md:order-2 md:pr-0 md:pl-4;
@@ -42,3 +43,5 @@
 .other-games-span {
   @apply pr-1 text-lg font-extrabold text-secondary;
 }
+
+
