@@ -51,25 +51,26 @@ function Contact() {
           </p>
 
           <Modal title="Feedback" active={showModal} close={() => toggleModal()}>
-              <form>
-                <ul>
-                  <li>
-                    <input type="checkbox"></input>
-                    <label htmlFor="" className="checkbox-label">I am a guild member.</label>
-                  </li>
+            <form name="contact" method="POST">
+              <input type="hidden" name="form-name" value="contact" />
 
-                  <li>
-                    <label htmlFor="userMessage" className="label-input">You can leave your feedback for us below:</label>
-                    <textarea htmlFor="userMessage" id="userMessage" name="userMessage" className="usermessage" ></textarea>
-                  </li>
-                </ul>
-                <div className="apply-div">
-                  <a href="/" className="modal_btn">Submit</a>
-                </div>
-              </form>
-            </Modal>
+              <ul>
+                <li>
+                  <input type="checkbox" name="guild_member" id="guild_member"></input>
+                  <label htmlFor="guild_member" className="checkbox-label">I am a guild member.</label>
+                </li>
 
+                <li>
+                  <label htmlFor="user_message" className="label-input">You can leave your feedback for us below:</label>
+                  <textarea id="user_message" name="user_message" className="usermessage" ></textarea>
+                </li>
+              </ul>
 
+              <div className="apply-div">
+                <button type="submit" className="modal_btn">Submit</button>
+              </div>
+            </form>
+          </Modal>
 
           <div className="apply-div">
             <button onClick={toggleModal} className="apply-btn">Let us know!</button>
