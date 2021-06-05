@@ -38,7 +38,7 @@ function Info() {
               {activity.title}
             </h3>
 
-            <p className="about-para">
+            <p>
               {activity.description}
             </p>
           </div>

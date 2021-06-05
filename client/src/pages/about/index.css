@@ -16,11 +16,8 @@
 
 .info-block-intro {
   @apply order-1 py-4;
-  @apply md:order-1 md:pl-0;
+  @apply md:order-1 md:pl-0 md:pr-5;
   @apply lg:w-1/2;
-}
-.about-para {
-  @apply pr-5
 }
 
 
