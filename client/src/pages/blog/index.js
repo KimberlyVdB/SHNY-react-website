@@ -29,7 +29,7 @@ function Blog() {
             </h3>
 
             <span className="blog-date">
-              {new Date(blog.updated_at).toLocaleDateString("be")}
+              {new Date(blog.updatedAt).toLocaleDateString("be")}
             </span>
           </div>
         )}
