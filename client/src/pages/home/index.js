@@ -2,6 +2,7 @@ import './index.css';
 // import youtube from '../../icons/youtube.svg';
 // import instagram from '../../icons/instagram.svg';
 import SkrittVector from '../../imgs/SkrittVectorcut.png';
+import { Link } from "@reach/router"
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
         <h3>We want you in the Skritt army today! </h3>
 
         <div className="cta-div">
-          <a href="/" className="cta-btn">Enlist Today </a>
+        <Link to="/apply" className="cta-btn"> Elist Today</Link>
         </div>
 
         <img className="skritt-vector" alt="skritt-vector" src={SkrittVector}></img>
