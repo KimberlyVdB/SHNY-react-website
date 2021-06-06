@@ -56,7 +56,7 @@
 }
 
 .header-m__menu {
-  @apply p-4 text-right uppercase;
+  @apply p-4 pr-5 text-right uppercase;
 }
 
 .header-m__menu-item {
