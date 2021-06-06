@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
 import './index.css';
 
 function Post(props) {
@@ -18,8 +19,10 @@ function Post(props) {
       <div className="contain-div">
         <h1 className="trail-line-double">{post.title}</h1>
 
-        <div className="info-blocks">
-          {post.content}
+        <div>
+          <ReactMarkdown>
+            {post.content}
+          </ReactMarkdown>
         </div>
       </div>
     </section>
