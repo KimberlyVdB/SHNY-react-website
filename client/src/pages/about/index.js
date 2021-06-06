@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
 import './index.css';
 
 function Info() {
@@ -32,15 +33,15 @@ function Info() {
             alt={activity.image.name}
             src={"https://shny.mbacalan.tk/api" + activity.image.formats.medium.url}
           />
-
           <div className="info-block-intro">
             <h3 className="trail-line">
-              {activity.title}
+               {activity.title}
             </h3>
-
-            <p>
-              {activity.description}
-            </p>
+            <div>
+              <ReactMarkdown>
+                {activity.description}
+              </ReactMarkdown>
+            </div>
           </div>
         </div>
       )}
