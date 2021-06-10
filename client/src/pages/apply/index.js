@@ -87,7 +87,7 @@ function Apply() {
           <p>
             If what you've read sounds like a guild for you, you can apply by filling in our application form.
             If we think you will be a good fit, we will contact for an invite.
-            <span className="other-games-span">Applications are currently open.</span>
+            <span className="other-games-span"> Applications are currently open.</span>
           </p>
 
           <Modal title="Application" active={showModal} close={() => toggleModal()}>
