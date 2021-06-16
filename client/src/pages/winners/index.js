@@ -2,6 +2,7 @@ import './index.css';
 import wintersday from '../../imgs/winter-contest.png';
 import halloween from '../../imgs/halloween-contest.png';
 import sab from '../../imgs/SAB-contest.png';
+import edgy from '../../imgs/edge-lord-contest.png';
 import { Link } from "@reach/router"
 
 function competition() {
@@ -58,6 +59,18 @@ function competition() {
             <Link to="/halloween" className="read-btn"> Read Story</Link>
           </div>
         </div>
+      </div>
+
+      <div className="info-blocks">
+        <div className="info-block-intro">
+          <h3 className="trail-line">Edge lord</h3>
+          <ul className="winners-ul">
+            <li ><span className="winners-span">Winner:  </span> Shadycupecake</li>
+            <li ><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
+          </ul>
+        </div>
+
+        <img className="info-img " alt="winter-wonderland" src={edgy}></img>
       </div>
     </section>
   );
