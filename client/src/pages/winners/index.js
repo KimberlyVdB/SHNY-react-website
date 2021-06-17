@@ -2,6 +2,7 @@ import './index.css';
 import wintersday from '../../imgs/winter-contest.png';
 import halloween from '../../imgs/halloween-contest.png';
 import sab from '../../imgs/SAB-contest.png';
+import edgy from '../../imgs/edge-lord-contest.png';
 import { Link } from "@reach/router"
 
 function competition() {
@@ -22,8 +23,8 @@ function competition() {
         <div className="info-block-intro ">
           <h3 className="trail-line ">Super Adventure Box</h3>
           <ul className="winners-ul">
-            <li ><span className="winners-span">Winner:  </span> Luna</li>
-            <li ><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
+            <li><span className="winners-span">Winner:  </span> Luna</li>
+            <li><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
           </ul>
         </div>
       </div>
@@ -32,8 +33,8 @@ function competition() {
         <div className="info-block-intro">
           <h3 className="trail-line">Winter Wonderland</h3>
           <ul className="winners-ul">
-            <li ><span className="winners-span">Winner:  </span> Rito</li>
-            <li ><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
+            <li><span className="winners-span">Winner:  </span> Rito</li>
+            <li><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
           </ul>
 
           <div className="read-more">
@@ -50,14 +51,26 @@ function competition() {
         <div className="info-block-intro ">
           <h3 className="trail-line ">Spooky Season</h3>
           <ul className="winners-ul">
-            <li ><span className="winners-span">Winner: </span> Rito</li>
-            <li ><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
+            <li><span className="winners-span">Winner: </span> Rito</li>
+            <li><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
           </ul>
 
           <div className="read-more">
             <Link to="/halloween" className="read-btn"> Read Story</Link>
           </div>
         </div>
+      </div>
+
+      <div className="info-blocks">
+        <div className="info-block-intro">
+          <h3 className="trail-line">Edge lord</h3>
+          <ul className="winners-ul">
+            <li><span className="winners-span">Winner:  </span> Shadycupecake</li>
+            <li><span className="winners-span">Won:</span> A blacklion skin weapon of choice worth 1 ticket</li>
+          </ul>
+        </div>
+
+        <img className="info-img " alt="edge-lord" src={edgy}></img>
       </div>
     </section>
   );
