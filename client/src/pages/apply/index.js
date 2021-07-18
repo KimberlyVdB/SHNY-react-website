@@ -121,6 +121,11 @@ function Apply() {
                 </li>
 
                 <li>
+                  <label htmlFor="hear_about" className="label-input" required>How did you hear about us:</label>
+                  <input type="text" name="hear_about" id="hear_about" className="accname" placeholder="Tyrian gazette"></input>
+                </li>
+
+                <li>
                   <label htmlFor="user_message" className="label-input">Why would you like to join/ tell us about yourself below:</label>
                   <textarea name="user_message" id="user_message" className="usermessage" ></textarea>
                 </li>
