@@ -91,7 +91,7 @@ function Apply() {
           </p>
 
           <Modal title="Application" active={showModal} close={() => toggleModal()}>
-            <form name="application" method="POST">
+            <form name="application" method="POST" data-netlify-recaptcha="true">
               <input type="hidden" name="form-name" value="application" />
 
               <ul>
@@ -130,6 +130,8 @@ function Apply() {
                   <textarea name="user_message" id="user_message" className="usermessage" ></textarea>
                 </li>
               </ul>
+
+              <div data-netlify-recaptcha="true"></div>
 
               <div className="apply-div">
                 <button type="submit" className="modal_btn">Submit</button>
