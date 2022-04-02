@@ -1,16 +1,10 @@
 services:
   strapi:
-    image: strapi/strapi:3.6.8-alpine
-    environment:
-      DATABASE_CLIENT: mongo
-      DATABASE_NAME: strapi
-      DATABASE_HOST: mongo
-      DATABASE_PORT: 27017
-      DATABASE_USERNAME: admin
-      DATABASE_PASSWORD: mongo
-      DATABASE_SSL: 'true'
-      DATABASE_SRV: 'true'
-    volumes:
-      - ./app:/srv/app
+    build:
+      context: ./server
+    env_file:
+      - ./server/.env
     ports:
       - '1337:1337'
+    command: npm run start
+    restart: unless-stopped
