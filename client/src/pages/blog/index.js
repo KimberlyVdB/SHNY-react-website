@@ -8,7 +8,7 @@ function Blog() {
 
   useEffect(() => {
     async function getBlogs() {
-      const data = await fetch('https://shny.mbacalan.tk/api/news-items/');
+      const data = await fetch('https://shny.mbacalan.tk/news-items/');
       setBlogs([...await data.json()]);
     }
 
