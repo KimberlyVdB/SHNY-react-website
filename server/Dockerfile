@@ -5,6 +5,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-FROM node:16-alpine
+FROM node:14-alpine
 COPY --from=builder /app .
 EXPOSE 1337
