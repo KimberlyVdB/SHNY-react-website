@@ -3,6 +3,7 @@ import wintersday from '../../imgs/winter-contest.png';
 import halloween from '../../imgs/halloween-contest.png';
 import sab from '../../imgs/SAB-contest.png';
 import edgy from '../../imgs/edge-lord-contest.png';
+import jade from '../../imgs/seeing-jade-contest.png';
 import { Link } from "@reach/router"
 
 function competition() {
@@ -71,6 +72,18 @@ function competition() {
         </div>
 
         <img className="info-img " alt="edge-lord" src={edgy}></img>
+      </div>
+
+      <div className="info-blocks">
+        <div className="info-block-intro">
+          <h3 className="trail-line">Seeing Jade</h3>
+          <ul className="winners-ul">
+            <li><span className="winners-span">Winner:  </span> Raven</li>
+            <li><span className="winners-span">Won:</span> 60 gold</li>
+          </ul>
+        </div>
+
+        <img className="info-img " alt="seeing-jade" src={jade}></img>
       </div>
     </section>
   );
