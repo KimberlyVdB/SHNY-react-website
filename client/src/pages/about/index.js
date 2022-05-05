@@ -7,7 +7,7 @@ function Info() {
 
   useEffect(() => {
     async function getActivities() {
-      const data = await fetch('https://shny.mbacalan.tk/guild-activities/');
+      const data = await fetch('https://shny.mbacalan.ml/guild-activities/');
       setActivities([...await data.json()]);
     }
 
@@ -31,7 +31,7 @@ function Info() {
           <img
             className="info-img"
             alt={activity.image.name}
-            src={"https://shny.mbacalan.tk" + activity.image.formats.medium.url}
+            src={"https://shny.mbacalan.ml" + activity.image.formats.medium.url}
           />
           <div className="info-block-intro">
             <h3 className="trail-line">

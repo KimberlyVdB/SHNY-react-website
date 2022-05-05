@@ -7,7 +7,7 @@ function Post(props) {
 
   useEffect(() => {
     async function getPost() {
-      const data = await fetch(`https://shny.mbacalan.tk/news-items/${props.id}`);
+      const data = await fetch(`https://shny.mbacalan.ml/news-items/${props.id}`);
       setPost(await data.json());
     }
 
